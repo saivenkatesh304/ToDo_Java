@@ -45,6 +45,7 @@ SBB3 ToDo is a Java-based web application that allows users to register, log in,
     mobile BIGINT,
     address VARCHAR(100)
     );
+
     CREATE TABLE sbb3_todo.tasks (
         taskid INT,
         taskname VARCHAR(50),
@@ -53,6 +54,12 @@ SBB3 ToDo is a Java-based web application that allows users to register, log in,
         regid INT,
         PRIMARY KEY (taskid, regid),
         FOREIGN KEY (regid) REFERENCES register(regid)
+    );
+
+    create table taskid_pks (
+	regid integer,
+	taskid integer,
+	constraint taskid_pks_regid_fk foreign key(regid) references register(regid)
     );
     ```
 
