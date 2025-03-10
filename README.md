@@ -1,7 +1,7 @@
-# 📌 SBB3 ToDo - Java Web Application  
+# 📌 ToDo - Java Web Application  
 
 ## 🚀 Overview  
-SBB3 ToDo is a Java-based web application that allows users to register, log in, and manage their tasks efficiently. It utilizes JDBC, Servlets, JSP, and MySQL for backend operations and Apache Tomcat as the web server.
+ToDo is a Java-based web application that allows users to register, log in, and manage their tasks efficiently. It utilizes JDBC, Servlets, JSP, and MySQL for backend operations and Apache Tomcat as the web server.
 
 ## ⚙️ Software Requirements  
 
